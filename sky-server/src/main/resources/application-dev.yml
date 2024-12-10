@@ -1,0 +1,30 @@
+# 开发环境下配置文件
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 040805
+
+# 阿里云oss相关配置
+  alioss:
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    accessKeyId: LTAI5t6RuY4rdyYiMv8LyiEU
+    accessKeySecret: d4ewZhy0gbJrCffvqHBRIgpxNpLg2p
+    bucketName: web-tlias-rose8770
+
+  redis:
+    host: localhost
+    port: 6379
+  wechat:
+    appid: wxd5095d339d236c88
+    secret: efc5e70db2ee070caf622a4657750319
+    mchid: 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    privateKeyFilePath:
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    weChatPayCertFilePath:
+    notifyUrl: https://73b4219e.r11.cpolar.top/notify/paySuccess
+    refundNotifyUrl: https://73b4219e.r11.cpolar.top/notify/refundSuccess
